@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>TESTE</title>
+<title>protocolo</title>
+
+<style>
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 20%;
+}
+</style>
+
 </head>
+
 <body>
 
-<h1>BOTÃO TESTE</h1>
-<button onclick="alert('FUNCIONOU')">CLIQUE AQUI</button>
+<button onclick="pedirSenha()">Entrar</button>
+
+<p>Organizando as coisas...</p>
+
+<script>
+function pedirSenha() {
+    var senha = prompt("Digite a senha:");
+
+    if (senha === "1234") {
+        alert("Acesso permitido!");
+    } else {
+        alert("Senha incorreta!");
+    }
+}
+</script>
 
 </body>
 </html>
-
