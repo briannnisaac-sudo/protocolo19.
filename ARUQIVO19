@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>protocolo</title>
+<style>
+body {
+background-color: black;
+color: white;
+font-family: monospace;
+text-align: center;
+margin-top: 20%;
+}
+.hidden {
+display:none;
+}
+</style>
+</head>
+<body>
+
+<p>organizando as coisas.</p>
+
+<!-- se você está lendo isso, continue procurando -->
+
+</body>
+</html>
