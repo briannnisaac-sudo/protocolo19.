@@ -4,6 +4,20 @@
 <title>protocolo</title>
 <style>
 body {
+  <button onclick="pedirSenha()">Entrar</button>
+
+<script>
+function pedirSenha() {
+    var senha = prompt("Digite a senha:");
+
+    if (senha === "1234") {
+        alert("Acesso permitido!");
+    } else {
+        alert("Senha incorreta!");
+    }
+}
+</script>
+
 background-color: black;
 color: white;
 font-family: monospace;
