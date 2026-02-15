@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>protocolo</title>
+<title>protocol19</title>
 
 <style>
 body {
     background-color: black;
-    color: white;
+    color: #00ffcc;
     font-family: monospace;
     text-align: center;
     margin-top: 20%;
+}
+
+/* Botão estiloso */
+.botao {
+    padding: 12px 25px;
+    background-color: black;
+    color: #00ffcc;
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #00ffcc;
+    color: black;
+    box-shadow: 0px 0px 15px #00ffcc;
 }
 </style>
 
@@ -17,9 +35,11 @@ body {
 
 <body>
 
-<button onclick="pedirSenha()">Entrar</button>
+<p>01001111 00100000 01001101 01000101 01000100 01001111</p>
 
-<p>Organizando as coisas...</p>
+<br>
+
+<button class="botao" onclick="pedirSenha()">ACESSAR</button>
 
 <script>
 function pedirSenha() {
